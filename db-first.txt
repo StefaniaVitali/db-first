@@ -1,0 +1,23 @@
+db-first = AUTO USATE CONCESSIONARIO
+
+
+NOME COLONNA                TIPO                  ATTRIBUTI                 INDICI
+
+id                          int                  AUTO_INCREMENTED           PRIMARY KEY
+targa                       varchar(35)          UNIQUE, NOT NULL
+marca                       varchar(40)          NOT NULL
+serie                       varchar(40)          NOT NULL
+modello                     varchar(40)          NOT NULL
+anno produzione             year                 NOT NULL
+anno immatricolazione       year                 NOT NULL
+tipo carburante             varchar (20)         NOT NULL
+tipo motore                 varchar (30)         NOT NULL
+tipo cambio                 varchar (30)         NOT NULL
+cilindrata                  decimal (4,2)        NOT NULL
+numero porte                mediumint            NOT NULL
+KM                          int                  NOT NULL
+colore                      varchar (20)         NOT NULL
+peso                        decimal (4,2)        NOT NULL
+altezza                     decimal (4,2)        NOT NULL
+massa                       decimal (4,2)        NOT NULL
+auto storica                tinyint              NULL
