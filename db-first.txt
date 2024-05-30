@@ -14,7 +14,7 @@ tipo_carburante             varchar (20)         NOT NULL
 tipo_motore                 varchar (30)         NOT NULL
 tipo_cambio                 varchar (30)         NOT NULL
 cilindrata                  decimal (4,2)        NOT NULL
-numero_porte                mediumint            NOT NULL
+numero_porte              mediumint, default(4)  NOT NULL
 KM                          int                  NOT NULL
 colore                      varchar (20)         NOT NULL
 peso                        decimal (4,2)        NOT NULL
